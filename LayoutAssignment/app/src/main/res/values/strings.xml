@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Layout Assignment</string>
+    <string name="team_a">TEAM A</string>
+    <string name="team_b">TEAM B</string>
+</resources>
