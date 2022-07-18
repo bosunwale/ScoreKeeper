@@ -1,3 +1,8 @@
+/*
+String firstName = "John";
+String lastName = "Oluwale";
+String studentNumber = "A00246405"
+ */
 package ca.johnoluwale.layoutassignment;
 
 import androidx.appcompat.app.AppCompatActivity;
