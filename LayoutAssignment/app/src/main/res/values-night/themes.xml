@@ -44,5 +44,6 @@
     <style name="EditText" parent="Widget.AppCompat.EditText">
         <item name="android:textStyle">bold</item>
         <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textColor">#ffffff</item>
     </style>
 </resources>
