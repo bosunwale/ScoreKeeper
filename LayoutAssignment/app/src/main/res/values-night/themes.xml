@@ -2,15 +2,47 @@
     <!-- Base application theme. -->
     <style name="Theme.LayoutAssignment" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimary">@color/primaryLightColor</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/primaryLightColor</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <!-- This is the textview style customization -->
+        <item name="android:textViewStyle">@style/customTextView</item>
+    </style>
+
+    <!--This is the parent style view used for textview-->
+    <style name="customTextView" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">sans-serif-black</item>
+
+    </style>
+    <!-- Style for all the team a and team b textview -->
+    <style name="Labels" parent="customTextView">
+        <item name="android:textSize">45sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!--Style for display result  textview-->
+    <style name="DisplayResultLabels" parent="customTextView">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!--Style for the buttons-->
+    <style name="Buttons" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">#ffffff</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!--Style for edit text-->
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">sans-serif-black</item>
     </style>
 </resources>
