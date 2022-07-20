@@ -7,6 +7,6 @@ The application is functional and I have added styles for day and night themes. 
 ## Built With
 Android Studio
 
-##Student Name and Number
+## Student Name and Number
 - John Oluwale
 - A00246405
