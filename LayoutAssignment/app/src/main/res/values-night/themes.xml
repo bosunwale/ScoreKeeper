@@ -8,7 +8,7 @@
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/primaryLightColor</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- This is the textview style customization -->
@@ -45,5 +45,10 @@
         <item name="android:textStyle">bold</item>
         <item name="fontFamily">sans-serif-black</item>
         <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="Divider" parent="Widget.MaterialComponents.MaterialDivider">
+        <item name="dividerColor">#ffffff</item>
+        <item name="dividerThickness">100dp</item>
     </style>
 </resources>
